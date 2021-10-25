@@ -1,9 +1,9 @@
-. Construi um formulário mais simples possível, usei as cores que a empresa Itaú representa, Azul e Laranja.
-. Coloquei o icone e o titulo na aba, depois criei uma faixa azul no topo para mostrar o que seria o formulário.
-. Depois, botei todos os campos o que foi pedido, ajeitei o campo, tirando os lados da caixa do input e mudando a cor da linha.
-. Também tem os campos obrigatórios, principalmente no CPF, ele avisa automaticamente se está válido ou não.
-. No botão "Cadastrar" coloquei o "hover" para que ele mudasse de cor quando passar o mouse lá.
-. Ao apertar no "Cadastrar", aparece outra 'página' mostrando que o formulário está funcionando.
+Construi um formulário mais simples possível, usei as cores que a empresa Itaú representa, Azul e Laranja.
+Coloquei o icone e o titulo na aba, depois criei uma faixa azul no topo para mostrar o que seria o formulário.
+Depois, botei todos os campos o que foi pedido, ajeitei o campo, tirando os lados da caixa do input e mudando a cor da linha.
+Também tem os campos obrigatórios, principalmente no CPF, ele avisa automaticamente se está válido ou não.
+No botão "Cadastrar" coloquei o "hover" para que ele mudasse de cor quando passar o mouse lá.
+Ao apertar no "Cadastrar", aparece outra 'página' mostrando que o formulário está funcionando.
 
 Links da Pesquisa: 
 Validando CPF: https://www.devmedia.com.br/validar-cpf-com-javascript/23916
