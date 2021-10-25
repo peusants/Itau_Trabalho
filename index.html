@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title> CADASTRO PESSOAL </title>
+    <link rel="icon" type="image/gif/png" href="itau.png">
+</head>
+
+<body>
+    <header>
+        <div class="barra">
+            Cadastro Pessoal
+        </div>
+    </header>
+
+        <form action='./concluido.html'>
+            <div class="caixa" >
+                <div class="caixatexto">
+                        <div>
+                            <label for="nome">
+                                Nome <span>*</span>
+                            </label><br>
+                            <input id="nome" type="text" name="name" required>
+                        </div>
+                    <div>
+                        <label id="Vcpf" for="cpf">
+                            CPF <span>*</span>
+                        </label><br>
+                        <input id="cpf" type="text" name="cpf" oninput="validarCpf()" required>
+                    </div>
+                    <div>
+                        <label for="rg">RG</label><br>
+                        <input id="rg" type="text" name="rg">
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo</label><br>
+                        <select id="sexo">
+                            <option value="?">Selecionar</option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                        </select>
+                    </div><br>
+                        <label for=endereco>
+                            Endereço <span>*</span>
+                        </label><br>
+                        <input id="endereco" type="text" name="street" required>
+                    <div>
+                        <label for="numero">
+                            Número <span>*</span>
+                        </label><br>
+                        <input id="numero" type="text" name="number" required>
+                    </div>
+                    <div>
+                        <label for=bairro>
+                            Bairro
+                        </label><br>
+                        <input id="bairro" type="text" name="neighborhood">
+                    </div>
+                    <div>
+                        <label for=cidade>
+                            Cidade
+                        </label><br>
+                        <input id="cidade" type="text" name="city">
+                    </div>
+                    <div>
+                        <label for="cep">
+                            CEP
+                        </label><br>
+                        <input id="cep" type="text" name="cep">
+                    </div>
+                    <div>
+                        <label for=telfixo>
+                            Telefone Fixo
+                        </label><br>
+                        <input id="telfixo" type="text" name="telephone">
+                    </div>
+                    <div>
+                        <label for=telcel>
+                            Telefone Celular <span>*</span>
+                        </label><br>
+                        <input id="telcel" type="text" name="smartphone" required>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="botao">
+                <button type="submit">Cadastrar</button>
+            </div>
+        
+        </form>
+   
+ 
+    <footer>
+        Desenvolvido por Pedro de Sant'Ana
+    </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
