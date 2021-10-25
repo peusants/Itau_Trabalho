@@ -1,4 +1,3 @@
-document.getElementById("concluido").style.visibility = "hidden";
 
 function testeCPF(strCPF) {
   var soma;
